@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  canvas.whiteboard
+  .colors
+    .color.black
+    .color.red
+    .color.green
+    .color.blue
+    .color.yellow
+  script(src="/socket.io/socket.io.js")
+  script(src="/javascripts/main.js")
